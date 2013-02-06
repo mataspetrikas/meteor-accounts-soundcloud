@@ -18,6 +18,8 @@
     '?client_id=' + config.clientId +
     '&redirect_uri=' + Meteor.absoluteUrl('_oauth/soundcloud?close') +
     '&scope=non-expiring' +
+    '&response_type=code_and_token' +
+    '&display=popup' +
     '&state=' + state;
 
     Accounts.oauth.initiateLogin(state, loginUrl, callback, {width: 900, height: 450});
