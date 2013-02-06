@@ -1,0 +1,8 @@
+{
+  "name": "accounts-soundcloud",
+  "description": "SoundCloud OAuth2 login service for use with Meteor Auth",
+  "homepage": "https://github.com/mataspetrikas/meteor-accounts-soundcloud",
+  "author": "Matas Petrikas <matas.petrikas@gmail.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/mataspetrikas/meteor-accounts-soundcloud.git"
+}
