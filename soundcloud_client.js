@@ -1,4 +1,4 @@
-function () {
+(function () {
   Meteor.loginWithSoundcloud = function (options, callback) {
     // support both (options, callback) and (callback).
     if (!callback && typeof options === 'function') {
